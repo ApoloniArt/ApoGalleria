@@ -1,6 +1,6 @@
 # ✨ApoGalleria✨
 
-I adore Ideogram 4, it's compositional power and image quality is unmatched in my opinion. I'm also a purist and control freak.....I want complete creative license on every level. So I have dedicated the last couple of months creating ***<ins>ApoGalleria</ins>*** and to satiate my NEW custom nodes I also built **[Visual Aesthetics Library](https://github.com/ApoloniArt/Visual-Aesthetics-Library)** Both are personal projects to fill my exact needs. 
+I adore Ideogram 4, it's compositional power and image quality is unmatched in my opinion. I'm also a purist and control freak.....I want complete creative license on every level. So I have dedicated the last couple of months creating **<ins>ApoGalleria</ins>**, and to satiate my NEW custom nodes I also built a colossal **[Visual Aesthetics Library](https://github.com/ApoloniArt/Visual-Aesthetics-Library)**, which is available from me. Both are personal projects to fill my exact needs. 
 **ApoGalleria** is my ComfyUI node family for building and reusing a library of image reference json captions across multiple model architectures. One visual library manager
 (**ApoGalleria-Ideo4**) plus two sibling converter nodes
 (**ApoGalleria-Flux2**, **ApoGalleria-NL**) that also convert each json into the
