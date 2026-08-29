@@ -4,7 +4,9 @@ I adore Ideogram 4, it's compositional power and image quality is unmatched in m
 
 ### **ApoGalleria** is my ComfyUI custom node suite for real-time collecting, viewing, editing and reusing a library of reference image/json caption pairs, primarily for Ideo4, but with the use of my sibling nodes the stored json's can be converted for inference across multiple model architectures. 
 
-**<ins>My core node:</ins>** **ApoGalleria-Visual Aesthetics Library Ideo4** plus two sibling converter nodes
+**<ins>My core node:</ins>** 
+
+**ApoGalleria-Visual Aesthetics Library Ideo4** plus two sibling converter nodes
 **<ins>ApoGalleria-Flux2</ins>**, **<ins>ApoGalleria-NL</ins>** that also convert each json into the
 prompt format each target architecture actually wants.
 
