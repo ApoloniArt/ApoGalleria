@@ -36,6 +36,8 @@ node's `import_json` input via this node's `export_json` output.
   `aesthetics`, `lighting`, `medium`, and the raw `color_palette` / `elements`
   JSON blobs.
 
+   ![ApoGalleria](assets/pass2output.jpg)
+
 **Field locking:** every field has its own lock toggle. Locked fields hold
 their value no matter which library image you click next — so you can graze
 across several saved entries, locking one good field at a time, to build a
