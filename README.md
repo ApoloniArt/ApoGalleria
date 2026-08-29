@@ -17,7 +17,7 @@ All three nodes install together from this one package, under the
 ## ApoGalleria-Ideo4
 
 The Visual Aesthetics Library. Build up your own libraries of
-image/description pairs, browse them in a split gallery + field-editor UI,
+image/json pairs, browse them in a split gallery + field-editor UI,
 lock the fields you like, mix-and-match across multiple saved entries, and
 pass the finished JSON straight into **Kijai's Ideogram 4 Prompt Builder**
 node's `import_json` input via this node's `export_json` output.
