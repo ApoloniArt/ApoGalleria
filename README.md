@@ -6,7 +6,7 @@ I adore Ideogram 4, it's compositional power and image quality is unmatched in m
 
 **<ins>My core node:</ins>** 
 
-`**ApoGalleria-Visual Aesthetics Library Ideo4**` plus two sibling converter nodes
+**`ApoGalleria-Visual Aesthetics Library Ideo4`** plus two sibling converter nodes
 `**<ins>ApoGalleria-Flux2</ins>**`, `**<ins>ApoGalleria-NL</ins>**` that also convert each json into the
 prompt format each target architecture actually wants.
 
