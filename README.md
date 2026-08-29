@@ -1,4 +1,4 @@
-# ApoGalleria
+# ✨ApoGalleria✨
 
 A ComfyUI node family for building and reusing a library of AI-art prompt
 captions across multiple model architectures. One visual library manager
