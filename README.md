@@ -2,12 +2,12 @@
 
 I adore Ideogram 4, it's compositional power and image quality is unmatched in my opinion. I'm also a purist and control freak.....I want complete creative license on every level. So I have dedicated the last couple of months creating **<ins>ApoGalleria</ins>**, and to satiate my NEW custom nodes I also built a colossal 50,000+ **[Visual Aesthetics Library](https://github.com/ApoloniArt/Visual-Aesthetics-Library)**, which is also available directly from me. Both are personal projects to fill my exact needs. 
 
-### **ApoGalleria** is my ComfyUI custom node suite for real-time collecting, viewing, editing and reusing a library of reference image/json caption pairs, primarily for Ideo4, but with the use of my sibling nodes the stored json's can be converted for inference across multiple model architectures. 
+### **ApoGalleria** is my ComfyUI custom node suite for real-time collecting, viewing, editing and reusing a library of reference image/JSON caption pairs, primarily for Ideo4, but with the use of my sibling nodes the stored JSONs can be converted for inference across multiple model architectures. 
 
 **<ins>My core node:</ins>** 
 
 **`ApoGalleria - Visual Aesthetics Library Ideo4`** plus two sibling converter nodes
-`ApoGalleria-Flux2`, `ApoGalleria-NL` that also convert each json into the
+`ApoGalleria-Flux2`, `ApoGalleria-NL` that also convert each JSON into the
 prompt format each target architecture actually wants.
 
 All three nodes install together from this one package, under the
@@ -18,7 +18,7 @@ All three nodes install together from this one package, under the
 ## ApoGalleria-Ideo4
 
 The Visual Aesthetics Library. Build up your own libraries of
-image/json pairs, browse them in a split gallery + field-editor UI,
+image/JSON pairs, browse them in a split gallery + field-editor UI,
 lock the fields you like, mix-and-match across multiple saved entries, and
 pass the finished JSON straight into **Kijai's Ideogram 4 Prompt Builder**
 node's `import_json` input via this node's `export_json` output.
@@ -59,10 +59,10 @@ Using ApoGalleria-Ideo4 to import images directly:
 
 ### **<ins>Live editing & Overwriting:</ins>**
 
-You can edit any loaded JSON caption in real-time, in node. Once you are happy with the finished description you can either pass to output for inference, copy the JSON for a manual file save, or you can choose to overwrite the existing JSON/txt file. This is extremely helpful for tweaking JSON/txt captions that are slightly off, correcting little descriptive anomalies, or changing things to suit your needs.
+You can edit any loaded JSON caption in real-time, in node. Once you are happy with the finished description you can either pass to output for inference, 1-click copy the JSON for a manual file save, or you can choose to overwrite the existing JSON/txt file. This is extremely helpful for tweaking JSON/txt captions that are slightly off, correcting little descriptive anomalies, or changing things to suit your needs.
 
 ![ApoGalleria](assets/overwrite.jpg)
-If you choose to overwrite the existing caption, you will be presented with a safety verification warning to avoid accidental overwrite. 
+If you choose to overwrite the existing JSON/txt caption, you will be presented with a safety verification warning to avoid accidental overwrite. 
 It informs you that the current selected image is the file which will be overwritten, this is **very important** to confirm, especially when mixing and compiling unique descriptions from multiple library images.
 
 ### Schema
