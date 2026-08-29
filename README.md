@@ -59,6 +59,8 @@ Using ApoGalleria-Ideo4 to import images directly:
 ### **<ins>Live editing & Overwriting:</ins>**
 
 You can edit any loaded JSON caption in real-time, in node. Once you are happy with the finished description you can either pass to output for inference, copy the JSON for a manual file save, or you can choose to overwrite the existing JSON/txt file. This is extremely helpful for tweaking JSON/txt captions that are slightly off, correcting little descriptive anomalies, or changing things to suit your needs.
+
+![ApoGalleria](assets/overwrite.jpg)
 If you choose to overwrite the existing caption, you will be presented with a safety verification warning to avoid accidental overwrite. 
 It informs you that the current selected image is the file which will be overwritten, this is **very important** to confirm, especially when mixing and compiling unique descriptions from multiple library images.
 
