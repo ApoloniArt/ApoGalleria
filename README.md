@@ -28,6 +28,9 @@ node's `import_json` input via this node's `export_json` output.
 - **Left (Populate mode):** grid gallery of stored images, searchable by
   description, with a nested folder-tree category picker (create categories
   and grouping folders on the fly, rename/move/delete from the same flyout).
+
+  ![ApoGalleria](assets/populate.jpg)
+  
 - **Right:** editable natural-language fields — `high_level_description`,
   `background`, `style` (photo / art_style), the matching `style detail` text,
   `aesthetics`, `lighting`, `medium`, and the raw `color_palette` / `elements`
