@@ -29,7 +29,7 @@ node's `import_json` input via this node's `export_json` output.
   description, with a nested folder-tree category picker (create categories
   and grouping folders on the fly, rename/move/delete from the same flyout).
 - **Right:** editable natural-language fields — `high_level_description`,
-  `background`, `style` (photo / art_style), the matching style detail text,
+  `background`, `style` (photo / art_style), the matching `style detail` text,
   `aesthetics`, `lighting`, `medium`, and the raw `color_palette` / `elements`
   JSON blobs.
 
