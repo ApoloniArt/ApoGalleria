@@ -41,14 +41,14 @@ unique combined description.
 
 ### **<ins>Mode toggle:</ins>**
 
-![ApoGalleria](assets/populate.jpg)
 - `Populate` — Library is active; selecting an entry fills all *unlocked*
   fields.
+![ApoGalleria](assets/populate.jpg)
 
-![ApoGalleria](assets/pass2output.jpg)
 - `Pass to Output` — Library is disabled; the current field state (locked +
   unlocked mix, plus any manual edits) is assembled into the full schema and
   emitted on the `export_json` output.
+![ApoGalleria](assets/pass2output.jpg)
 
 ### **<ins>Saving into the library:</ins>**
 
