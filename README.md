@@ -28,15 +28,11 @@ node's `import_json` input via this node's `export_json` output.
 - **Left (Populate mode):** grid gallery of stored images, searchable by
   description, with a nested folder-tree category picker (create categories
   and grouping folders on the fly, rename/move/delete from the same flyout).
-
-  ![ApoGalleria](assets/populate.jpg)
   
 - **Right:** editable natural-language fields — `high_level_description`,
   `background`, `style` (photo / art_style), the matching `style detail` text,
   `aesthetics`, `lighting`, `medium`, and the raw `color_palette` / `elements`
   JSON blobs.
-
-   ![ApoGalleria](assets/pass2output.jpg)
 
 **Field locking:** every field has its own lock toggle. Locked fields hold
 their value no matter which library image you click next — so you can graze
@@ -44,8 +40,12 @@ across several saved entries, locking one good field at a time, to build a
 unique combined description.
 
 ### **<ins>Mode toggle:</ins>**
+
+![ApoGalleria](assets/populate.jpg)
 - `Populate` — Library is active; selecting an entry fills all *unlocked*
   fields.
+
+![ApoGalleria](assets/pass2output.jpg)
 - `Pass to Output` — Library is disabled; the current field state (locked +
   unlocked mix, plus any manual edits) is assembled into the full schema and
   emitted on the `export_json` output.
