@@ -102,6 +102,7 @@ this node's own `library/` directory. Categories are leaf folders that hold
 entries; grouping folders hold only subfolders, never entries — both are
 managed from the flyout picker in the node UI.
 
+![ApoGalleria](assets/flyoutpicker.jpg)
 **Never delete or replace the `library/` folder wholesale — this is where
 your saved image/caption pairs live.**
 
