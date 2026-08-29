@@ -21,6 +21,8 @@ pass the finished JSON straight into **Kijai's Ideogram 4 Prompt Builder**
 node's `import_json` input via this node's `export_json` output.
 
 **Split UI:**
+![ApoGalleria](assets/ApoGalleria.jpg)
+
 - **Left (Populate mode):** grid gallery of stored images, searchable by
   description, with a nested folder-tree category picker (create categories
   and grouping folders on the fly, rename/move/delete from the same flyout).
