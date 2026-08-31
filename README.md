@@ -240,6 +240,15 @@ All comparison examples were run from the same Ideo4 image/caption, with a locke
 ## Flux1-DEV
 ![ApoGalleria](assets/Flux1-DEV.jpg)
 
+## Flux2-DEV
+![ApoGalleria](assets/Flux2-DEV.jpg)
+
+## Z-Image Turbo
+![ApoGalleria](assets/Z-ImageTurbo.jpg)
+
+## WAN 2.2 & Magic WAN
+![ApoGalleria](assets/WAN.jpg)
+
 ## Installation
 
 1. Clone into your ComfyUI custom_nodes folder:
