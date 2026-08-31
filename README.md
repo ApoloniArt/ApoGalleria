@@ -270,7 +270,10 @@ These are examples for what architectures I currently have, and are proof of con
    menu: **ApoGalleria-Ideo4**, **ApoGalleria-Flux2**, **ApoGalleria-NL**.
    
 Updating my nodes:
-```git pull```
+ ```bash
+   cd ComfyUI/custom_nodes/apogalleria
+   git pull
+   ```
 
 ## Typical workflow
 
