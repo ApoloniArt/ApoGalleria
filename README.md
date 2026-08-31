@@ -9,12 +9,7 @@ I adore Ideogram 4, it's compositional power and image quality is unmatched in m
 ## ApoGalleria-Ideo4
 ### **<ins>My core node:</ins>** 
 
-**`ApoGalleria - Visual Aesthetics Library Ideo4`** plus two sibling converter nodes
-`ApoGalleria-Flux2`, `ApoGalleria-NL` that also convert each JSON into the
-prompt format each target architecture actually wants.
-
-All three nodes install together from this one package, under the
-**ApoGalleria** category in ComfyUI's node menu.
+**`ApoGalleria - Visual Aesthetics Library Ideo4`** 
 
 The Visual Aesthetics Library. Build up your own libraries of
 image/JSON pairs, browse them in a split gallery + field-editor UI,
