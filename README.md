@@ -237,6 +237,8 @@ Missing fields are simply skipped — nothing is fabricated to fill a gap.
 All comparison examples were run from the same Ideo4 image/caption, with a locked seed.
 ![ApoGalleria](assets/Ideo4.jpg)
 
+## Flux1-DEV
+![ApoGalleria](assets/Flux1-DEV.jpg)
 
 ## Installation
 
