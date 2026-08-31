@@ -161,6 +161,8 @@ A shared sibling converter node. Takes the `export_json` output from
 paragraph, for architectures that prompt with descriptive prose rather than
 a structured schema.
 
+![ApoGalleria](assets/ApoGalleria-NL.jpg)
+
 ### Covers
 
 - **Z-Image Turbo**
