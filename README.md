@@ -258,15 +258,15 @@ These are examples for what architectures I currently have, and are proof of con
 1. Clone into your ComfyUI custom_nodes folder:
    ```bash
    cd ComfyUI/custom_nodes
-   git clone https://github.com/apoloniart/comfyui-apogalleria ApoGalleria
+   git clone https://github.com/ApoloniArt/ApoGalleria ComfyUI-ApoGalleria
    ```
 2. Install dependencies:
    ```bash
    # Windows portable:
-   python_embeded\python.exe -m pip install -r custom_nodes\ApoGalleria\requirements.txt
+   python -m pip install -r ComfyUI-ApoGalleria\requirements.txt
 
    # Standard install:
-   pip install -r custom_nodes/ApoGalleria/requirements.txt
+   pip install -r ComfyUI-ApoGalleria\requirements.txt
    ```  
 3. Restart ComfyUI.
 4. All three nodes appear under the **ApoGalleria** category in the node
@@ -274,7 +274,7 @@ These are examples for what architectures I currently have, and are proof of con
    
 5. Updating my nodes:
  ```bash
-   cd ComfyUI/custom_nodes/apogalleria
+   cd ComfyUI/custom_nodes/ComfyUI-ApoGalleria
    git pull
    ```
 
