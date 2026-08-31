@@ -290,15 +290,23 @@ Looking for a ready-made reference library to drop into ApoGalleria-Ideo4?
 See my **[Visual Aesthetics Library](https://github.com/ApoloniArt/Visual-Aesthetics-Library)** for a colossal
 50,000+ purchasable library.
 
-Questions, feedback, or requests? Join my Discord **[Visual Aesthetics Library](https://discord.gg/XDExAUzuZp)**.
+Questions, feedback, or requests? Join my Discord **[ApoloniArt](https://discord.gg/XDExAUzuZp)**.
 
 ## Version
 
 **v1.0.0** — first combined release of all three nodes as one package.
-Ideo4's gallery/library engine was previously developed and tested solo
+**ApoGalleria - Visual Aesthetics Library Ideo4** engine was previously developed and tested solo
 through v68 of its original standalone codebase; this release folds it
 together with the Flux2 and NL sibling converters under one version number
 going forward.
+
+### Bug Fixes
+1. A couple of minor bugs which do not affect the function of my nodes whatsoever that I need to address.
+2. Display/operational disparity between normal ComfyUI and Nodes 2.0.
+[My nodes function perfectly in both, but due to Nodes 2.0 being a pain in the ass to code for, there are differences in display & operation]
+
+### Changelog
+[Updated as I develop with time available]
 
 ---
 
