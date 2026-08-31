@@ -165,10 +165,7 @@ a structured schema.
 
 ### Covers
 
-- **Z-Image Turbo**
-- **Krea2**
-- **Qwen-Image**
-- **Flux (1)**
+- **Z-Image Turbo** | **Krea2** | **Qwen-Image** | **Flux (1)** | **WAN 2.2** | **Magic WAN**
 - **Flux2**, when used in its natural-language prompting mode (as opposed
   to Flux2's JSON mode, which ApoGalleria-Flux2 handles separately)
 
@@ -235,6 +232,12 @@ never appear directly in the output.
 Missing fields are simply skipped — nothing is fabricated to fill a gap.
 
 ---
+
+## Ground Truth and conversion node output Comparison examples
+All comparison examples were run from the same Ideo4 image/caption, with a locked seed.
+### Ground Truth
+![ApoGalleria](assets/Ideo4.jpg)
+
 
 ## Installation
 
