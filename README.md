@@ -248,6 +248,7 @@ All comparison examples were run from the same Ideo4 image/caption, with a locke
 
 ## WAN 2.2 & Magic WAN
 ![ApoGalleria](assets/WAN.jpg)
+These are examples for what architectures I currently have, and are proof of concept to show the sibling nodes function perfectly.
 
 ## Installation
 
@@ -285,11 +286,11 @@ from the same library.
 
 ## Companion dataset library
 
-Looking for ready-made caption libraries to drop into ApoGalleria-Ideo4?
-See **ApoGalleria-Libraries** — [add link] — for example datasets and
-purchasable full libraries.
+Looking for a ready-made reference library to drop into ApoGalleria-Ideo4?
+See my **[Visual Aesthetics Library](https://github.com/ApoloniArt/Visual-Aesthetics-Library)** for a colossal
+50,000+ purchasable library.
 
-Questions, feedback, or requests? Join the Discord — [add link].
+Questions, feedback, or requests? Join my Discord **[Visual Aesthetics Library](https://discord.gg/XDExAUzuZp)**.
 
 ## Version
 
@@ -298,3 +299,8 @@ Ideo4's gallery/library engine was previously developed and tested solo
 through v68 of its original standalone codebase; this release folds it
 together with the Flux2 and NL sibling converters under one version number
 going forward.
+
+---
+
+*Made with love by [ApoloniArt](https://github.com/ApoloniArt) because I wanted inspiration on tap.* With **ApoGalleria** and this library, I never have to worry again.
+Neither will you 💜
