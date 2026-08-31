@@ -2,10 +2,9 @@
 
 I adore Ideogram 4, it's compositional power and image quality is unmatched in my opinion. I'm also a purist and control freak.....I want complete creative license on every level. So I have dedicated the last couple of months creating **<ins>ApoGalleria</ins>**, and to satiate my NEW custom nodes I also built a colossal 50,000+ **[Visual Aesthetics Library](https://github.com/ApoloniArt/Visual-Aesthetics-Library)**, which is also available directly from me. Both are personal projects to fill my exact needs. 
 
-### **ApoGalleria** is my ComfyUI custom node suite for real-time collecting, viewing, editing and reusing a library of reference image/JSON caption pairs, coded for Ideo4 and captioned in Ideo4 structured JSON.
-My sibling nodes convert Ideo4 captions for inference across multiple model architectures. 
+### **ApoGalleria** is my ComfyUI custom node suite for real-time collecting, viewing, editing and reusing a library of reference image/JSON caption pairs, coded specifically for Ideo4, and captioned in Ideo4 structured JSON. My sibling nodes convert Ideo4 captions for inference across multiple model architectures. 
 
-**<ins>My core node:</ins>** 
+### **<ins>My core node:</ins>** 
 
 **`ApoGalleria - Visual Aesthetics Library Ideo4`** plus two sibling converter nodes
 `ApoGalleria-Flux2`, `ApoGalleria-NL` that also convert each JSON into the
