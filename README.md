@@ -269,7 +269,7 @@ These are examples for what architectures I currently have, and are proof of con
 4. All three nodes appear under the **ApoGalleria** category in the node
    menu: **ApoGalleria-Ideo4**, **ApoGalleria-Flux2**, **ApoGalleria-NL**.
    
-Updating my nodes:
+5. Updating my nodes:
  ```bash
    cd ComfyUI/custom_nodes/apogalleria
    git pull
@@ -286,7 +286,7 @@ ApoGalleria-Ideo4 --(export_json)-+
 ```
 
 Build and curate your caption library once in ApoGalleria-Ideo4, then wire
-its `export_json` output to whichever sibling node matches your target
+its `export_json` output directly to Ideo4, or whichever sibling node matches your target
 model — or both at once, if you generate across multiple architectures
 from the same library.
 
@@ -294,7 +294,7 @@ from the same library.
 
 Looking for a ready-made reference library to drop into ApoGalleria-Ideo4?
 See my **[Visual Aesthetics Library](https://github.com/ApoloniArt/Visual-Aesthetics-Library)** for a colossal
-50,000+ purchasable library.
+50,000+ image/caption reference library, purchasable directly from me.
 
 Questions, feedback, or requests? Join my Discord **[ApoloniArt](https://discord.gg/XDExAUzuZp)**.
 
