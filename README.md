@@ -264,10 +264,13 @@ These are examples for what architectures I currently have, and are proof of con
 
    # Standard install:
    pip install -r custom_nodes/ApoGalleria/requirements.txt
-   ```
+   ```  
 3. Restart ComfyUI.
 4. All three nodes appear under the **ApoGalleria** category in the node
    menu: **ApoGalleria-Ideo4**, **ApoGalleria-Flux2**, **ApoGalleria-NL**.
+   
+Updating my nodes:
+```git pull```
 
 ## Typical workflow
 
