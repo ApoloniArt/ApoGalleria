@@ -108,6 +108,7 @@ A sibling converter node. Takes the `export_json` output from
 **ApoGalleria-Ideo4** and converts it on the fly into Flux.2's structured
 JSON prompt schema, ready to feed into Flux.2 conditioning.
 
+![ApoGalleria](assets/ApoGalleria-Flux2.jpg)
 This node has no UI, no storage, and no library of its own — it's a pure
 passthrough-transform.
 
