@@ -235,7 +235,6 @@ Missing fields are simply skipped — nothing is fabricated to fill a gap.
 
 ## Ground Truth and conversion node output Comparison examples
 All comparison examples were run from the same Ideo4 image/caption, with a locked seed.
-### Ground Truth
 ![ApoGalleria](assets/Ideo4.jpg)
 
 
