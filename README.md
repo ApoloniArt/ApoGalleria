@@ -51,6 +51,8 @@ Using ApoGalleria-Ideo4 to import images directly:
 2. [JPG/WEBP] Require a pre-captioned JSON/TXT sidecar file alongside the image. The process to save to the library is as above, but both image and JSON must be selected and saved together.
 ### 3. Drop your folders of Image/caption pairs straight into the main library directory to create your collections quickly.
 
+---
+
 ### **<ins>Live editing & Overwriting:</ins>**
 
 You can edit any loaded JSON caption in real-time, in node. Once you are happy with the finished description you can either pass to output for inference, 1-click copy the JSON for a manual file save, or you can choose to overwrite the existing JSON/txt file. This is extremely helpful for tweaking JSON/txt captions that are slightly off, correcting little descriptive anomalies, or changing things to suit your needs.
