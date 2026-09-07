@@ -301,7 +301,6 @@ See my **[Visual Aesthetics Library](https://github.com/ApoloniArt/Visual-Aesthe
 60,000+ image/caption reference library.
 
 ## Available directly from me via my Discord 👉 [ApoloniArt](https://discord.gg/XDExAUzuZp) 👈
-Questions, feedback, or requests? Hit me up, I'm very friendly 😘
 
 ---
 
@@ -323,5 +322,6 @@ going forward.
 
 ---
 
-*Made with love by [ApoloniArt](https://github.com/ApoloniArt) because I wanted inspiration on tap.* With **ApoGalleria** and this library, I never have to worry again.
+*Made with love by [ApoloniArt](https://github.com/ApoloniArt) because I wanted inspiration on tap.* With **ApoGalleria** and <ins>Visual Aesthetics Library</ins>, I never have to worry again.
 Neither will you 💜
+Questions, feedback, or requests? Hit me up, I'm very friendly 😘
