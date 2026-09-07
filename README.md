@@ -211,6 +211,7 @@ sentence leads:
 
 Try both against the same caption — which reads better tends to depend on
 whether the image is more about an overall scene or a specific subject.
+Basically like an extra seed, great for experimenting and variation!
 
 ### Color palette handling
 
