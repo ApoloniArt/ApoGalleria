@@ -294,19 +294,19 @@ its `export_json` output directly to Ideo4, or whichever sibling node matches yo
 model — or both at once, if you generate across multiple architectures
 from the same library.
 
-## Companion dataset library
+## Visual Aesthetics Library
 
 Looking for a ready-made reference library to drop into ApoGalleria-Ideo4?
 See my **[Visual Aesthetics Library](https://github.com/ApoloniArt/Visual-Aesthetics-Library)** for a colossal
-50,000+ image/caption reference library, purchasable directly from me.
-
-Questions, feedback, or requests? Join my Discord **[ApoloniArt](https://discord.gg/XDExAUzuZp)**.
+60,000+ image/caption reference library. 
+Available directly from me via my Discord 👉**[ApoloniArt](https://discord.gg/XDExAUzuZp)**👈
+Questions, feedback, or requests? Join my Discord
 
 ## Version
 
-**v1.0.0** — first combined release of all three nodes as one package.
+**v1.68.1** — first combined release of all three nodes as one package.
 **ApoGalleria - Visual Aesthetics Library Ideo4** engine was previously developed and tested solo
-through v68 of its original standalone codebase; this release folds it
+ over 2 months through v68 of its original standalone codebase; this release folds it
 together with the Flux2 and NL sibling converters under one version number
 going forward.
 
