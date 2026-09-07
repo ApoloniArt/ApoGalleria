@@ -237,7 +237,7 @@ Missing fields are simply skipped — nothing is fabricated to fill a gap.
 
 ---
 
-## Ground Truth and conversion node output Comparison examples
+## Ideo4 Ground Truth & conversion node output examples
 All comparison examples were run from the same Ideo4 image/caption, with a locked seed.
 ![ApoGalleria](assets/Ideo4.jpg)
 
@@ -252,7 +252,7 @@ All comparison examples were run from the same Ideo4 image/caption, with a locke
 
 ## WAN 2.2 & Magic WAN
 ![ApoGalleria](assets/WAN.jpg)
-These are examples for what architectures I currently have, and are proof of concept to show the sibling nodes function perfectly.
+Proof of concept examples for the architectures I currently have.
 
 ## Installation
 
