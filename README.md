@@ -195,9 +195,9 @@ ApoGalleria-Ideo4 (export_json) --> ApoGalleria-NL (ideo4_json)
 **Output:**
 - `nl_prompt` (STRING) — a single flowing natural-language paragraph
 
-### Ordering presets
+### Dual Ordering presets
 
-Both presets carry the same underlying detail and end the same way, in
+<ins>This node has two presets</ins>: Both carry the same underlying detail and end the same way, in
 style then lighting — they differ in narrative shape, not just which
 sentence leads:
 
