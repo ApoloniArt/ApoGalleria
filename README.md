@@ -60,7 +60,7 @@ You can edit any loaded JSON caption in real-time, in node. Once you are happy w
 
 ![ApoGalleria](assets/overwrite.jpg)
 If you choose to overwrite the existing JSON/txt caption, you will be presented with a safety verification warning to avoid accidental overwrite. 
-It informs you that the current selected image is the file which will be overwritten, this is **very important** to confirm, especially when mixing and compiling unique descriptions from multiple library images.
+It informs you that the current selected image is the file which will be overwritten, this is **very important** to confirm, especially when mixing and compiling unique descriptions from multiple library image/captions.
 
 ### Schema
 
