@@ -1,0 +1,25 @@
+ApoGalleria
+Copyright (c) 2026 Apolonia (ApoloniArt)
+
+This project is licensed under the MIT License (see LICENSE). The MIT
+License permits use, modification, and redistribution — including
+commercial use — provided that the original copyright notice and license
+text are retained in any copy or substantial portion of the software.
+
+This NOTICE file is not an additional legal restriction on top of the
+MIT License. It exists to state plainly what attribution we ask for in
+practice:
+
+- If you redistribute this project, or a modified version of it, please
+  keep the copyright notice in LICENSE intact.
+- If you build on ApoGalleria, publish a derivative node package, or
+  reference its code, prompt schemas, or conversion logic in your own
+  work, please credit "ApoGalleria by ApoloniArt" with a link back to
+  the original repository.
+- If you're unsure whether your use case needs attribution, crediting
+  the original author is always appreciated and is never required
+  beyond what MIT already asks for.
+
+Thank you for respecting the work that went into this project.
+
+GitHub: https://github.com/ApoloniArt
