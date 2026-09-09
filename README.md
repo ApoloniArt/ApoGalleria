@@ -348,6 +348,6 @@ I tend to switch between both depending on how I feel...both have their benefits
 
 ---
 
-*Made with love by [ApoloniArt](https://github.com/ApoloniArt) because I wanted inspiration on tap.* With **ApoGalleria** and <ins>Visual Aesthetics Library</ins>, I never have to worry again.
+*Made with love by [ApoloniArt](https://github.com/ApoloniArt) because I wanted inspiration on tap.* With **ApoGalleria** and **[Visual Aesthetics Library](https://github.com/ApoloniArt/Visual-Aesthetics-Library)**, I never have to worry again.
 Neither will you 💜
-Questions, feedback, or requests? Hit me up, I'm very friendly 😘
+Questions, feedback, or requests? Hit me up on Discord, I'm very friendly 😘
