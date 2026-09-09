@@ -310,11 +310,11 @@ See my **[Visual Aesthetics Library](https://github.com/ApoloniArt/Visual-Aesthe
 ## Unavoidable Annoyance & Comfy Anomalies
 Display/operational disparity between normal ComfyUI and Nodes 2.0 *sigh* 😔
 [My nodes function perfectly in both, but due to Nodes 2.0 being a pain in the ass to code for, there are differences in display & operation]
-I tend to switch between both depending on how I feel...both have their benefits, but I think I prefer non-Nodes 2.0.
+Both have their benefits, and I honestly can't decide which I like best. See which you prefer
 
 **<ins>Normal Comfy mode:</ins>** Scrolling in-node is automatic via mouse wheel, but visuals disappear when you zoom out to under ~57%. I've no idea why that now happens, I'm sure it wasn't like that before.
 
-**<ins>Nodes 2.0 mode:</ins>** Scrolling in-node is manual via scroll bar, and visuals do not disappear when zooming out. Pass to Output renders a different look due to Nodes 2.0 coding.
+**<ins>Nodes 2.0 mode:</ins>** Scrolling in-node is manual via scroll bar, but visuals do not disappear when zooming out. Pass to Output renders a different look due to Nodes 2.0 coding. Not any issue at all, just looks unsightly to me.
 
 #### PRO TIP: Spawn my main node, select an image, then click on Live JSON Preview to open it. Doing this will keep the node to it's minimal size and not require manual resizing time and again. If you resize my node before opening Live JSON Preview, opening it will expand the node further, and you'll keep resizing it back down. Just an annoying little display issue that doesn't really bother me 🤷‍♀️
 
