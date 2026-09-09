@@ -1,0 +1,18 @@
+[project]
+name = "comfyui-apogalleria"
+description = "Visual prompt-library manager for Ideogram 4 (ApoGalleria-Ideo4), plus sibling converters that turn its capt..."
+version = "1.0.2"
+license = { file = "LICENSE" }
+
+[project.urls]
+Repository = "https://github.com/apoloniart/ComfyUI-ApoGalleria"
+
+dependencies = [
+    "Pillow>=9.0.0",
+]
+
+[tool.comfy]
+PublisherId = "apoloniart"
+DisplayName = "ApoGalleria"
+Icon = ""
+Tags = ["gallery", "ideogram", "flux2", "prompt-builder", "library", "utility", "converter"]
