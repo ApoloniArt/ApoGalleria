@@ -307,18 +307,15 @@ See my **[Visual Aesthetics Library](https://github.com/ApoloniArt/Visual-Aesthe
 
 ---
 
-## Version
-
-**v1.68.1** — first combined release of all three nodes as one package.
-**ApoGalleria - Visual Aesthetics Library Ideo4** engine was previously developed and tested solo
- over 2 months through v68 of its original standalone codebase; this release folds it
-together with the Flux2 and NL sibling converters under one version number
-going forward.
-
-### Bug Fixes
-1. A couple of minor bugs which do not affect the function of my nodes whatsoever that I need to address.
-2. Display/operational disparity between normal ComfyUI and Nodes 2.0 *sigh* 😔
+## Unavoidable Annoyance & Comfy Anomalies
+Display/operational disparity between normal ComfyUI and Nodes 2.0 *sigh* 😔
 [My nodes function perfectly in both, but due to Nodes 2.0 being a pain in the ass to code for, there are differences in display & operation]
+I tend to switch between both depending on how I feel...but I think I prefer non-Nodes 2.0.
+**Normal Comfy mode:** Scrolling in-node works better but visuals disappear when you zoom out {no idea why that now happens, I'm sure it wasn't like that before] 
+**Nodes 2.0 mode:** Scrolling is manual by bar, visuals do not disappear when zooming out
+### TIP: Spawn my main node, select an image, then click on Live JSON Preview. Doing this will keep the node to it's minimal size and not require manual resizing time and again. If you resize my node before opening Live JSON Preview you'll keep resizing it back down. Just an annoying little display issue that doesn't really bother me 🤷‍♀️
+
+---
 
 ## Changelog
 
