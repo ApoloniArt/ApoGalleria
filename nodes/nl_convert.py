@@ -64,12 +64,118 @@ def _join_sentences(*parts) -> str:
     return " ".join(sentences)
 
 
+def _bbox_position_label(bbox) -> str:
+    """Translate a real [ymin, xmin, ymax, xmax] bbox (0-1000 grid) into a
+    coarse 3x3-grid position phrase ("upper-left", "centered", "lower-
+    right", etc.) using the box's midpoint.
+
+    This is a deterministic geometric read of real coordinates already
+    present in the source - not a fabricated guess - so it's safe under
+    the project's "never invent what isn't there" rule (the same rule
+    that has ApoGalleria-Flux2 drop bbox entirely, since Flux2's JSON
+    schema has no field to put a translated position into - NL prose
+    can carry one honestly).
+
+    Returns "" if bbox is missing, malformed, or not a 4-element
+    sequence - never guesses a position from absence.
+    """
+    if not bbox or not isinstance(bbox, (list, tuple)) or len(bbox) != 4:
+        return ""
+    try:
+        ymin, xmin, ymax, xmax = (float(v) for v in bbox)
+    except (TypeError, ValueError):
+        return ""
+
+    cx = (xmin + xmax) / 2
+    cy = (ymin + ymax) / 2
+
+    if cx < 333:
+        h = "left"
+    elif cx > 667:
+        h = "right"
+    else:
+        h = "center"
+
+    if cy < 333:
+        v = "upper"
+    elif cy > 667:
+        v = "lower"
+    else:
+        v = "middle"
+
+    if v == "middle" and h == "center":
+        return "centered"
+    if v == "middle":
+        return f"{h} side"
+    if h == "center":
+        return f"{v} area"
+    return f"{v}-{h}"
+
+
+def _element_desc_with_text(el: dict) -> str:
+    """Build one element's description clause, folding in its `text`
+    field (if present) as an explicit visible-text instruction.
+
+    Ideo4 elements can carry a `text` field for on-image text (titles,
+    labels, signage, etc.) that is entirely separate from `desc`. If this
+    is dropped, the resulting image simply never renders that text -
+    silently, since nothing else in the source signals its absence.
+
+    Two things matter for correct rendering and are handled deliberately
+    here:
+
+    1. Casing is preserved LITERALLY from the source and never touched
+       by this module's usual mid-sentence lowercasing (used elsewhere
+       to fold a `desc` clause grammatically into a running sentence).
+       Rendered on-image text ("ORDER HERE", "Open 24 Hours") needs its
+       exact casing to reach the model, since that casing usually *is*
+       the desired visual result - a literal, uppercase-preserving
+       conversion is safer than a "smoothed" one here.
+    2. Placement is stated when the source bbox gives a real position
+       (see _bbox_position_label) - e.g. "in the upper-right area" -
+       rather than always left unplaced. No position is fabricated when
+       bbox is absent or malformed; the clause simply omits it, same as
+       every other optional field in this converter.
+
+    The phrasing ("the text <curly-quoted string> is visible ...")
+    rather than a bare quoted fragment is deliberate: it reads as an
+    instruction to render text in the scene rather than a caption label,
+    which is closer to how these strings actually appear in the
+    natural-language captions these architectures were trained on.
+
+    Curly quotes ("...") are used instead of straight quotes ("...") so
+    the quoted text can never be confused with JSON-string delimiters if
+    this prose is later wrapped in a JSON envelope upstream, and because
+    curly quotes are the more common convention in prose-caption
+    datasets these NL-prompted architectures were trained on.
+    """
+    desc = _clean(el.get("desc", ""))
+    # Deliberately NOT run through _clean(): _clean() only strips/collapses
+    # whitespace and a trailing period, it does not alter case - but text
+    # is kept on its own path regardless, so a future edit to _clean()
+    # can never silently start touching rendered-text casing.
+    raw_text = el.get("text", "")
+    text = raw_text.strip() if isinstance(raw_text, str) else ""
+    if not text:
+        return desc
+
+    position = _bbox_position_label(el.get("bbox"))
+    if position:
+        text_clause = f"the text \u201c{text}\u201d is visible in the {position}"
+    else:
+        text_clause = f"the text \u201c{text}\u201d is visible"
+
+    if desc:
+        return f"{desc}, and {text_clause}"
+    return text_clause
+
+
 def _elements_clause(elements) -> str:
     """Combine element descriptions into one flowing clause (flat,
     subject-first style - each desc joined as its own listed clause)."""
     if not elements:
         return ""
-    descs = [_clean(el.get("desc", "")) for el in elements if isinstance(el, dict)]
+    descs = [_element_desc_with_text(el) for el in elements if isinstance(el, dict)]
     descs = [d for d in descs if d]
     if not descs:
         return ""
@@ -86,7 +192,7 @@ def _elements_in_scene_clause(elements) -> str:
     subject-first's flat list."""
     if not elements:
         return ""
-    descs = [_clean(el.get("desc", "")) for el in elements if isinstance(el, dict)]
+    descs = [_element_desc_with_text(el) for el in elements if isinstance(el, dict)]
     descs = [d for d in descs if d]
     if not descs:
         return ""
