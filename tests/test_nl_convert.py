@@ -105,6 +105,50 @@ def test_invalid_preset_falls_back():
     print(f"✅ Falls back gracefully: {result[:80]}...")
 
 
+def test_text_field_rendered_literally():
+    print(f"\n{'=' * 60}\nText field: literal casing + placement\n{'=' * 60}")
+    sample = {
+        "compositional_deconstruction": {
+            "background": "A rain-slicked city street at night.",
+            "elements": [
+                {"type": "text", "text": "JOE'S DINER", "bbox": [50, 100, 200, 500],
+                 "desc": "a glowing neon sign"},
+                {"type": "text", "text": "OPEN 24/7", "bbox": [800, 700, 950, 980]},
+            ]
+        }
+    }
+    for preset in (PRESET_SUBJECT_FIRST, PRESET_SCENE_FIRST):
+        result = convert_ideo4_json_string_to_nl_string(json.dumps(sample), preset=preset)
+        print(f"[{preset}] {result}")
+        assert "JOE'S DINER" in result, "literal text casing must be preserved exactly"
+        assert "OPEN 24/7" in result, "text-only element (no desc) must still be included"
+        assert "joe's diner" not in result, "text must never be lowercased"
+        assert "upper-left" in result, "bbox-derived position must be included when bbox is present"
+        assert "lower-right" in result, "second element's bbox-derived position must be included"
+    print("\n✅ All assertions passed.")
+
+
+def test_text_field_bbox_never_fabricated():
+    print(f"\n{'=' * 60}\nText field: no position fabricated without a real bbox\n{'=' * 60}")
+    sample = {
+        "compositional_deconstruction": {
+            "background": "A shopfront.",
+            "elements": [
+                {"text": "SALE", "bbox": None},
+                {"text": "CLEARANCE", "bbox": [1, 2]},
+                {"text": "NEW", "bbox": ["a", "b", "c", "d"]},
+                {"text": "FINAL"},
+            ]
+        }
+    }
+    result = convert_ideo4_json_string_to_nl_string(json.dumps(sample), preset=PRESET_SUBJECT_FIRST)
+    print(result)
+    for word in ("SALE", "CLEARANCE", "NEW", "FINAL"):
+        assert word in result, f"text '{word}' must still appear even without a usable bbox"
+    assert " in the " not in result, "no position phrase should be fabricated from missing/malformed bbox"
+    print("\n✅ All assertions passed.")
+
+
 if __name__ == "__main__":
     for sample, label in [
         (SAMPLE_IDEO4_ART, "Art-style sample"),
@@ -116,3 +160,5 @@ if __name__ == "__main__":
 
     test_malformed_input()
     test_invalid_preset_falls_back()
+    test_text_field_rendered_literally()
+    test_text_field_bbox_never_fabricated()
