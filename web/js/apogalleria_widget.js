@@ -1474,14 +1474,13 @@ function injectStylesOnce() {
     if (_stylesInjected) return;
     _stylesInjected = true;
 
-    // Bitcount Ink (Google Fonts) - used for the logo header only.
-    if (!document.querySelector('link[data-apogalleria-font]')) {
-        const fontLink = document.createElement("link");
-        fontLink.rel = "stylesheet";
-        fontLink.href = "https://fonts.googleapis.com/css2?family=Bitcount+Ink&display=swap";
-        fontLink.setAttribute("data-apogalleria-font", "true");
-        document.head.appendChild(fontLink);
-    }
+    // Bitcount Ink - self-hosted, served via our own backend route (see
+    // nodes/server.py get_font) rather than fonts.googleapis.com. Newer
+    // ComfyUI frontends ship a strict default CSP (font-src 'self',
+    // style-src 'self' 'unsafe-inline') that blocks cross-origin font/
+    // stylesheet requests outright - this satisfies 'self' since it's the
+    // same backend origin as every other /apogalleria/* route.
+    const _fontUrl = "/apogalleria/font/BitcountInk-500.woff2";
 
     const style = document.createElement("style");
     style.id = "apogalleria-injected-styles";
@@ -1490,6 +1489,13 @@ function injectStylesOnce() {
     const _existingStyle = document.getElementById("apogalleria-injected-styles");
     if (_existingStyle) _existingStyle.remove();
     style.textContent = `
+@font-face {
+    font-family: "Bitcount Ink";
+    src: url("${_fontUrl}") format("woff2");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
 .apogalleria-root {
     display: flex;
     flex-direction: column;
