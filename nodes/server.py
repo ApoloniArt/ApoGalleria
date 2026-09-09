@@ -79,6 +79,13 @@ def _json_response(data, status: int = 200):
 
 PACKAGE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 WIDGET_JS_PATH = os.path.join(PACKAGE_DIR, "web", "js", "apogalleria_widget.js")
+FONTS_DIR = os.path.join(PACKAGE_DIR, "web", "fonts")
+
+_FONT_CONTENT_TYPES = {
+    ".woff2": "font/woff2",
+    ".woff": "font/woff",
+    ".ttf": "font/ttf",
+}
 
 
 def register_routes():
@@ -112,6 +119,49 @@ def register_routes():
                     "Cache-Control": "no-cache, no-store, must-revalidate",
                     "Pragma": "no-cache",
                     "Expires": "0",
+                },
+            )
+        except Exception as e:
+            traceback.print_exc()
+            return _json_error(str(e), 500)
+
+    @routes.get("/apogalleria/font/{filename}")
+    async def get_font(request):
+        """
+        Serve self-hosted font files (e.g. the logo-header font) same-origin.
+
+        Newer ComfyUI frontends ship a strict default CSP (font-src 'self',
+        style-src 'self' 'unsafe-inline') that blocks any cross-origin font
+        request outright (e.g. fonts.googleapis.com) - this dedicated route,
+        plus an explicit font/* Content-Type (same MIME-guessing concern as
+        widget.js above), is what makes the header font satisfy 'self' and
+        actually load on those versions.
+
+        Filename is restricted to a basename inside FONTS_DIR - no path
+        traversal via '..' or absolute paths.
+        """
+        filename = request.match_info.get("filename", "")
+        safe_name = os.path.basename(filename)
+        if not safe_name or safe_name != filename:
+            return _json_error("Invalid font filename.", 400)
+
+        font_path = os.path.join(FONTS_DIR, safe_name)
+        if not os.path.isfile(font_path):
+            return _json_error("Font not found.", 404)
+
+        ext = os.path.splitext(safe_name)[1].lower()
+        content_type = _FONT_CONTENT_TYPES.get(ext, "application/octet-stream")
+
+        try:
+            with open(font_path, "rb") as f:
+                data = f.read()
+            return web.Response(
+                body=data,
+                content_type=content_type,
+                headers={
+                    # Fonts are static/immutable per filename - safe to cache
+                    # long-term, unlike widget.js/entry data above.
+                    "Cache-Control": "public, max-age=31536000, immutable",
                 },
             )
         except Exception as e:
