@@ -227,6 +227,8 @@ never appear directly in the output.
 |---|---|---|
 | `high_level_description` | → | opening sentence in `scene-first`; not used in `subject-first` |
 | `compositional_deconstruction.elements[].desc` | → | opening clause in `subject-first` (flat list); "placed within the scene" clause in `scene-first` |
+| `compositional_deconstruction.elements[].text` | → | folded into that element's clause as `the text "…" is visible [in the <position>]` — casing preserved exactly as written in the source, never altered |
+| `compositional_deconstruction.elements[].bbox` | → | used only to derive the `text` clause's position phrase above (e.g. "upper-left", "centered"); omitted entirely — never guessed — when bbox is missing or malformed |
 | `compositional_deconstruction.background` | → | second sentence, both presets |
 | `style_description.medium` | → | folded into the style sentence |
 | `style_description.art_style` *or* `.photo` | → | folded into the style sentence |
