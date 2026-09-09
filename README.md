@@ -318,7 +318,7 @@ Both have their benefits, and I honestly can't decide which I like best. See whi
 
 #### PRO TIP: Spawn my main node, select an image, then click on Live JSON Preview to open it. Doing this will keep the node to it's minimal size and not require manual resizing time and again. If you resize my node before opening Live JSON Preview, opening it will expand the node further, and you'll keep resizing it back down. Just an annoying little display issue that doesn't really bother me 🤷‍♀️
 
-### I am not interested in PR's, forks or merges. You are very welcome to take **ApoGalleria** and augment my work to fit your own requirements if you feel the need to do so, but please have the kindness to credit & link me as the original creator. That would mean a lot to me, and is the decent thing to do 🤗
+### You are very welcome to fork **ApoGalleria** and augment my work to fit your own requirements if you feel the need to do so, but please have the kindness to credit & link me as the original creator. That would mean a lot to me, and is the decent thing to do 🤗
 
 ---
 
