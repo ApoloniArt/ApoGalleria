@@ -3,7 +3,7 @@
 ### **ApoGalleria** is my powerful custom node suite designed for inspiration on tap. Generate images from a stored library of reference image/JSON captioned pairs. Real-time importing, viewing, and editing of captions right within ComfyUI. Coded specifically for Ideo4, and captioned in Ideo4 structured JSON. 
 My sibling nodes convert Ideo4 JSON captions on the fly for inference across multiple model architectures. 
 
-To satiate my new custom nodes I also built a colossal **[Visual Aesthetics Library](https://github.com/ApoloniArt/Visual-Aesthetics-Library)** that contains over 60,000+ pieces of captioned art inspiration, available directly from me. Both are personal projects created to fill my exact needs.
+To satiate my new custom nodes I also built a colossal **[Visual Aesthetics Library](https://github.com/ApoloniArt/Visual-Aesthetics-Library)** that contains ~60,000 pieces of captioned art inspiration, available directly from me. Both are personal projects created to fill my exact needs.
 
 ---
 
