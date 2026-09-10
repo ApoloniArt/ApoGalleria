@@ -301,7 +301,7 @@ from the same library.
 
 Looking for a ready-made reference library to drop into ApoGalleria-Ideo4?
 See my **[Visual Aesthetics Library](https://github.com/ApoloniArt/Visual-Aesthetics-Library)** for a colossal
-60,000+ image/caption reference library.
+~60,000 image/caption reference library.
 
 ## Available directly from me via my Discord 👉 [ApoloniArt](https://discord.gg/XDExAUzuZp) 👈
 
