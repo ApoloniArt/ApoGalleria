@@ -5,7 +5,7 @@ version = "1.0.2"
 license = { file = "LICENSE" }
 
 [project.urls]
-Repository = "https://github.com/apoloniart/ComfyUI-ApoGalleria"
+Repository = "https://github.com/apoloniart/ApoGalleria"
 
 dependencies = [
     "Pillow>=9.0.0",
