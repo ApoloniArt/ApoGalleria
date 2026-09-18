@@ -275,7 +275,7 @@ Proof of concept examples for the architectures I currently have.
 3. Restart ComfyUI.
 4. All three nodes appear under the **ApoGalleria** category in the node
    menu: **ApoGalleria-Ideo4**, **ApoGalleria-Flux2**, **ApoGalleria-NL**.
-5. <insComfy Manager Install:</ins>
+5. ### **<ins>Comfy Manager Install:</ins>**
    After install, rename the folder to **ComfyUI-ApoGalleria**
    
 7. Updating my nodes:
