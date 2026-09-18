@@ -1,7 +1,7 @@
 [project]
-name = "comfyui-apogalleria"
+name = "apogalleria"
 description = "Visual prompt-library manager for Ideogram 4 (ApoGalleria-Ideo4), plus sibling converters that turn its capt..."
-version = "1.0.3"
+version = "1.0.4"
 license = { file = "LICENSE" }
 
 [project.urls]
