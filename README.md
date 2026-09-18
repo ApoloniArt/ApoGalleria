@@ -275,9 +275,10 @@ Proof of concept examples for the architectures I currently have.
 3. Restart ComfyUI.
 4. All three nodes appear under the **ApoGalleria** category in the node
    menu: **ApoGalleria-Ideo4**, **ApoGalleria-Flux2**, **ApoGalleria-NL**.
-5. ### **<ins>Comfy Manager Install:</ins>** After install, rename the folder to **ComfyUI-ApoGalleria**
+5. ### **<ins>Comfy Manager Install:</ins>**
+   My nodes have absolute minimal requirements, so you can confidently & safely install via Comfy Manager, without the fear of dependencies breaking your entire Comfy. After installation, rename the folder to **ComfyUI-ApoGalleria**
    
-6. Updating my nodes:
+7. Updating my nodes:
  ```bash
    cd ComfyUI/custom_nodes/ComfyUI-ApoGalleria
    git pull
