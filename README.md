@@ -327,6 +327,10 @@ See [NOTICE](NOTICE) for the full attribution request.
 
 ## Changelog
 
+### v1.0.3 — 2026-09-17
+- **Corrected:** Toml file repository URL corrected, ApoGalleria republished with
+  correct URL for Comfy Manager install.
+
 ### v1.0.2 — 2026-09-09
 - **Fixed:** ApoGalleria-NL silently dropped any `elements[].text` field from
   the source Ideo4 JSON, so images with on-image text (signs, titles,
