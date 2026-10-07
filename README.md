@@ -50,7 +50,7 @@ Using ApoGalleria-Ideo4 to import images directly:
 
 ![ApoGalleria](assets/Import.jpg)
 2. [JPG/WEBP] Require a pre-captioned JSON/txt sidecar file alongside the image. The process to save to the library is as above, but both image and JSON/txt files must be selected and saved together.
-### 3. Drop your folders of Image/caption pairs straight into the main library directory to create your collections quickly.
+### 3. Create collection folders, and category sub-folders of Image/caption pairs, and drop them straight into the main library directory to build collections instantly.
 ![ApoGalleria](assets/Library.jpg)
 
 ---
