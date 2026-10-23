@@ -158,6 +158,60 @@ than written as an empty string or `null`.
 
 ---
 
+## ApoGalleria-Flux3
+
+Converts Ideo4 JSON into a prompt for **FLUX 3 Image Klein** (distilled and base), plus a matching **width / height**.
+
+Klein reads one continuous English prose caption. In *layout mode* the caption is followed by a table of boxes, which is the format BFL's own prompt upsampler writes:
+
+```
+<caption> [{"id":"obj_1","bbox":[y_min,x_min,y_max,x_max],"desc":"..."}, ...]
+```
+
+Ideo4 boxes are already `[y_min, x_min, y_max, x_max]` on a 0-1000 grid, so they pass straight through. Wire `flux3_prompt` into `CLIPTextEncode` and leave any prompt upsampler **off** (this node already writes the finished format). Wire `width` / `height` into the latent size.
+
+### Options
+
+| Input | What it does |
+|---|---|
+| `output_format` | **layout: boxes + citations** (default, the trained format) / layout: boxes, no citations / prose only (positions written in words, no boxes) |
+| `source_ratio` | The aspect ratio the Ideo4 entry was captioned at. Pick from the list, or *custom* and set `custom_w` / `custom_h` |
+| `render_ratio` | *same as source* (default, no distortion) or any other ratio |
+| `if_ratio_differs` | Only used when render ≠ source. **fit**: whole source inside the canvas, empty margins. **fill**: source covers the canvas, edges cropped. **stretch**: boxes unchanged (layout distorts) |
+| `megapixels` | Output area. 1.0 = 1024x1024 at 1:1. Sides are snapped to multiples of 16 and clamped to 64-4096 |
+| `include_palettes` | Add colour names per element and an overall palette sentence |
+| `double_quote_text` | Turns `'SMALL'` in descriptions into `"SMALL"` (Klein expects rendered text in double quotes). Apostrophes such as *Pelé's* are left alone |
+
+### Citations
+
+In the cited format each caption sentence points at its box row with a tag like `<obj_1>` or `<Text_1>`. That tag is how the model ties a sentence to a rectangle. Elements without a valid box stay in the prose without a tag.
+
+### Aspect ratios
+
+Boxes are stored as fractions of the image, so they are stretched onto whatever canvas you render. Render at a different ratio than the source and everything distorts. Keep `render_ratio` on *same as source* and the node outputs the matching width/height.
+
+### Outputs
+
+`flux3_prompt`, `width`, `height`, `info` (warnings: skipped boxes, text mismatches, long prompts).
+
+### Schema mapping
+
+| Ideo4 field | → | Klein prompt |
+|---|---|---|
+| `style_description.medium`, `.aesthetics` | → | opening sentence ("A photograph with a ... look.") |
+| `style_description.photo` *or* `.art_style` | → | "Photographic details: ..." / "Style details: ..." |
+| `high_level_description` | → | scene sentence |
+| `style_description.lighting` | → | "Lighting: ..." |
+| `elements[]` | → | one sentence each (cited or plain); full `desc` goes in the box row |
+| `elements[].text` | → | `the text "..."` verbatim, line breaks as `\n`; appended to the row `desc` if missing from it |
+| `elements[].bbox` | → | box row (or a position phrase in prose-only mode) |
+| `elements[].color_palette`, `style_description.color_palette` | → | named colours (optional) |
+| `compositional_deconstruction.background` | → | last sentence ("In the background, ...") |
+
+Missing fields are skipped; nothing is invented.
+
+---
+
 ## ApoGalleria-NL
 
 A shared sibling converter node. Takes the `export_json` output from
