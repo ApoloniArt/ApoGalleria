@@ -314,15 +314,14 @@ Proof of concept examples for the architectures I currently have.
 ## Installation
 
 1. ### **<ins>Comfy Manager Install [recommended]:</ins>**
-   My nodes have absolute minimal requirements, so you can confidently & safely install via Comfy Manager, without the fear of dependencies breaking your entire Comfy. After installation, rename the folder to **ComfyUI-ApoGalleria**
-   ![ApoGalleria](assets/manager.jpg)
+   My nodes have absolute minimal requirements, so you can confidently & safely install via Comfy Manager, without the fear of dependencies breaking your entire Comfy. Search **APO** in manager. After installation, rename the folder to **ComfyUI-ApoGalleria**
 
-3. ### **<ins>Manual Install [git clone]:</ins>**
+2. ### **<ins>Manual Install [git clone]:</ins>**
    ```bash
    cd ComfyUI/custom_nodes
    git clone https://github.com/ApoloniArt/ApoGalleria ComfyUI-ApoGalleria
    ```
-4. Install dependencies:
+3. Install dependencies:
    ```bash
    # Windows portable:
    python -m pip install -r ComfyUI-ApoGalleria\requirements.txt
@@ -330,12 +329,12 @@ Proof of concept examples for the architectures I currently have.
    # Standard install:
    pip install -r ComfyUI-ApoGalleria\requirements.txt
    ```  
-5. Restart ComfyUI.
-6. All four nodes appear under the **ApoGalleria** category in the node
+4. Restart ComfyUI.
+5. All four nodes appear under the **ApoGalleria** category in the node
    menu: **ApoGalleria-Ideo4**, **ApoGalleria-Flux2**, **ApoGalleria-NL**, **ApoGalleria-Flux3**.
-
+   ![ApoGalleria](assets/manager.jpg)
    
-7. Updating my nodes:
+6. Updating my nodes:
  ```bash
    cd ComfyUI/custom_nodes/ComfyUI-ApoGalleria
    git pull
