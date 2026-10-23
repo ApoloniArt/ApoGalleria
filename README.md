@@ -346,6 +346,8 @@ Proof of concept examples for the architectures I currently have.
 ApoGalleria-Ideo4 --(export_json)-+
                                   |
                                   +--> ApoGalleria-NL --> nl_prompt
+                                  |
+                                  +--> ApoGalleria-Flux3 --> flux3_prompt, width, height
 ```
 
 Build and curate your caption library once in ApoGalleria-Ideo4, then wire
