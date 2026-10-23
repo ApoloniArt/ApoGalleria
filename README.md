@@ -313,12 +313,15 @@ Proof of concept examples for the architectures I currently have.
 
 ## Installation
 
-1. Clone into your ComfyUI custom_nodes folder:
+1. ### **<ins>Comfy Manager Install:</ins>**
+   My nodes have absolute minimal requirements, so you can confidently & safely install via Comfy Manager, without the fear of dependencies breaking your entire Comfy. After installation, rename the folder to **ComfyUI-ApoGalleria**
+
+2. Clone into your ComfyUI custom_nodes folder:
    ```bash
    cd ComfyUI/custom_nodes
    git clone https://github.com/ApoloniArt/ApoGalleria ComfyUI-ApoGalleria
    ```
-2. Install dependencies:
+3. Install dependencies:
    ```bash
    # Windows portable:
    python -m pip install -r ComfyUI-ApoGalleria\requirements.txt
@@ -326,13 +329,12 @@ Proof of concept examples for the architectures I currently have.
    # Standard install:
    pip install -r ComfyUI-ApoGalleria\requirements.txt
    ```  
-3. Restart ComfyUI.
-4. All four nodes appear under the **ApoGalleria** category in the node
+4. Restart ComfyUI.
+5. All four nodes appear under the **ApoGalleria** category in the node
    menu: **ApoGalleria-Ideo4**, **ApoGalleria-Flux2**, **ApoGalleria-NL**, **ApoGalleria-Flux3**.
-5. ### **<ins>Comfy Manager Install:</ins>**
-   My nodes have absolute minimal requirements, so you can confidently & safely install via Comfy Manager, without the fear of dependencies breaking your entire Comfy. After installation, rename the folder to **ComfyUI-ApoGalleria**
+
    
-7. Updating my nodes:
+6. Updating my nodes:
  ```bash
    cd ComfyUI/custom_nodes/ComfyUI-ApoGalleria
    git pull
@@ -384,7 +386,7 @@ See [NOTICE](NOTICE) for the full attribution request.
 
 ## Changelog
 
-### v1.1.0 — 2026-10-16
+### v1.1.0 — 2026-10-23
 - **Added:** ApoGalleria-Flux3 node for FLUX 3 Image Klein. Prose prompt with optional
   0-1000 bounding-box layout table (cited / uncited), aspect-ratio-safe width/height output,
   fit / fill / stretch box remapping, optional palettes and quote normalisation.
