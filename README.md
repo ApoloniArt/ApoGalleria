@@ -313,10 +313,10 @@ Proof of concept examples for the architectures I currently have.
 
 ## Installation
 
-1. ### **<ins>Comfy Manager Install:</ins>**
+1. ### **<ins>Comfy Manager Install [recommended]:</ins>**
    My nodes have absolute minimal requirements, so you can confidently & safely install via Comfy Manager, without the fear of dependencies breaking your entire Comfy. After installation, rename the folder to **ComfyUI-ApoGalleria**
 
-2. Clone into your ComfyUI custom_nodes folder:
+2. ### **<ins>Manual Install [git clone]:</ins>**
    ```bash
    cd ComfyUI/custom_nodes
    git clone https://github.com/ApoloniArt/ApoGalleria ComfyUI-ApoGalleria
