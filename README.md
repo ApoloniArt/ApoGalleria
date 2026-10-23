@@ -327,8 +327,8 @@ Proof of concept examples for the architectures I currently have.
    pip install -r ComfyUI-ApoGalleria\requirements.txt
    ```  
 3. Restart ComfyUI.
-4. All three nodes appear under the **ApoGalleria** category in the node
-   menu: **ApoGalleria-Ideo4**, **ApoGalleria-Flux2**, **ApoGalleria-NL**.
+4. All four nodes appear under the **ApoGalleria** category in the node
+   menu: **ApoGalleria-Ideo4**, **ApoGalleria-Flux2**, **ApoGalleria-NL**, **ApoGalleria-Flux3**.
 5. ### **<ins>Comfy Manager Install:</ins>**
    My nodes have absolute minimal requirements, so you can confidently & safely install via Comfy Manager, without the fear of dependencies breaking your entire Comfy. After installation, rename the folder to **ComfyUI-ApoGalleria**
    
