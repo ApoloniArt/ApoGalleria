@@ -160,9 +160,9 @@ than written as an empty string or `null`.
 
 ## ApoGalleria-Flux3
 
-Converts Ideo4 JSON into a prompt for **FLUX 3 Image Klein** (distilled and base), plus a matching **width / height**.
+Converts Ideo4 JSON into a prompt for **FLUX 3 Image Klein** (distilled and base), plus a matching **width / height**. Klein reads one continuous English prose caption. In *layout mode* the caption is followed by a table of boxes, which is the format BFL's own prompt upsampler writes:
 
-Klein reads one continuous English prose caption. In *layout mode* the caption is followed by a table of boxes, which is the format BFL's own prompt upsampler writes:
+![ApoGalleria](assets/flux3.jpg)
 
 ```
 <caption> [{"id":"obj_1","bbox":[y_min,x_min,y_max,x_max],"desc":"..."}, ...]
