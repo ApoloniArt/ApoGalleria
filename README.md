@@ -382,6 +382,11 @@ See [NOTICE](NOTICE) for the full attribution request.
 
 ## Changelog
 
+### v1.1.0 — 2026-10-16
+- **Added:** ApoGalleria-Flux3 node for FLUX 3 Image Klein. Prose prompt with optional
+  0-1000 bounding-box layout table (cited / uncited), aspect-ratio-safe width/height output,
+  fit / fill / stretch box remapping, optional palettes and quote normalisation.
+
 ### v1.0.3 — 2026-09-17
 - **Corrected:** Toml file repository URL corrected, ApoGalleria republished with
   correct URL for Comfy Manager install.
