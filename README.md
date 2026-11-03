@@ -388,6 +388,7 @@ Both have their benefits, and I honestly can't decide which I like best. See whi
 ## Attribution
 #### You are very welcome to fork **ApoGalleria** and augment my work to fit your own requirements if you feel the need to do so, but please have the kindness to credit & link me as the original creator, in accordance with the [MIT license](https://github.com/ApoloniArt/ApoGalleria/blob/main/LICENSE) That would mean a lot to me, and is the decent thing to do 🤗
 See [NOTICE](NOTICE) for the full attribution request.
+See [Bitcount Ink SIL Open Font License 1.1](https://github.com/ApoloniArt/ApoGalleria/blob/main/docs/OFL.txt).
 
 ---
 
