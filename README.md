@@ -13,18 +13,13 @@
 </p>
 Generate images from a stored library of reference image/JSON captioned pairs. Real-time importing, viewing, and editing of captions right within ComfyUI. Coded specifically for Ideo4, and captioned in Ideo4 structured JSON. 
 My sibling nodes convert Ideo4 JSON captions on the fly for inference across multiple model architectures. 
-
-To satiate my new custom nodes I also built a colossal **[Visual Aesthetics Library](https://github.com/ApoloniArt/Visual-Aesthetics-Library)** that contains ~60,000 pieces of captioned art inspiration, available directly from me. Both are personal projects created to fill my exact needs.
-
----
+![ApoGalleria](assets/ApoGalleria.jpg)
 
 ## ApoGalleria-Ideo4
 Build up your own libraries of image/JSON pairs, browse them in a split gallery + field-editor UI, lock the fields you like, mix-and-match across multiple saved entries, and
 pass the finished JSON straight into **Kijai's Ideogram 4 Prompt Builder** node's `import_json` input via this node's `export_json` output.
 
 **Split UI:**
-![ApoGalleria](assets/ApoGalleria.jpg)
-
 - **Left (Populate mode):** grid gallery of stored images, searchable by
   description, with a nested folder-tree category picker (create categories
   and grouping folders on the fly, rename/move/delete from the same flyout).
