@@ -1,4 +1,4 @@
-<h1 align="center">ApoGalleria - Visual Aesthetics Library  Ideo4</h1>
+<h1 align="center">𝔸𝕡𝕠𝔾𝕒𝕝𝕝𝕖𝕣𝕚𝕒 - 𝕍𝕚𝕤𝕦𝕒𝕝 𝔸𝕖𝕤𝕥𝕙𝕖𝕥𝕚𝕔𝕤 𝕃𝕚𝕓𝕣𝕒𝕣𝕪 [𝕀𝕕𝕖𝕠𝟜]</h1>
 <p align="center"><b>My powerful custom node suite designed for unlimited inspiration on tap.</b></p>
 <p align="center">
   <a href="https://github.com/comfyanonymous/ComfyUI"><img alt="ComfyUI extension" src="https://img.shields.io/badge/ComfyUI-Extension-5ea500?style=flat"></a>
