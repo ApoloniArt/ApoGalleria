@@ -1,6 +1,17 @@
-# ✨ApoGalleria - Visual Aesthetics Library  Ideo4✨
-
-### **ApoGalleria** is my powerful custom node suite designed for inspiration on tap. Generate images from a stored library of reference image/JSON captioned pairs. Real-time importing, viewing, and editing of captions right within ComfyUI. Coded specifically for Ideo4, and captioned in Ideo4 structured JSON. 
+<h1 align="center">ApoGalleria - Visual Aesthetics Library  Ideo4</h1>
+<p align="center"><b>My powerful custom node suite designed for unlimited inspiration on tap.</b></p>
+<p align="center">
+  <a href="https://github.com/comfyanonymous/ComfyUI"><img alt="ComfyUI extension" src="https://img.shields.io/badge/ComfyUI-Extension-5ea500?style=flat"></a>
+  <a href="https://github.com/ApoloniArt/ApoGalleria/releases"><img alt="Version" src="https://img.shields.io/badge/dynamic/toml?url=https%3A%2F%2Fraw.githubusercontent.com%2Fapoloniart%2FApoGalleria%2Fmain%2Fpyproject.toml&query=%24.project.version&label=Version&color=ed7d31&style=flat"></a>
+  <a href="https://github.com/ApoloniArt/ApoGalleria/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/github/license/apoloniart/ApoGalleria?label=License&color=e0414a&style=flat"></a>
+  <a href="https://github.com/ApoloniArt/ApoGalleria/blob/main/requirements.txt"><img alt="Dependencies" src="https://img.shields.io/badge/Dependencies-1-0075c2?style=flat"></a>
+  <a href="https://github.com/ApoloniArt/ApoGalleria/commits"><img alt="Last update" src="https://img.shields.io/github/last-commit/apoloniart/ApoGalleria?label=Last%20Update&color=ed7d31&style=flat"></a>
+  <a href="https://github.com/ApoloniArt/ApoGalleria/commits"><img alt="Activity" src="https://img.shields.io/github/commit-activity/m/apoloniart/ApoGalleria?label=Activity&color=d4b300&style=flat"></a>
+  <a href="https://github.com/ApoloniArt/ApoGalleria/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/apoloniart/ApoGalleria?logo=github&color=555&style=flat"></a>
+  <a href="https://discord.gg/XDExAUzuZp"><img alt="Discord" src="https://img.shields.io/badge/Discord-Join-5865F2?logo=discord&logoColor=white&style=flat"></a>
+  <a href="https://github.com/ApoloniArt"><img alt="Follow on GitHub" src="https://img.shields.io/github/followers/ApoloniArt?label=Follow&logo=github&color=555&style=flat"></a>
+</p>
+## Generate images from a stored library of reference image/JSON captioned pairs. Real-time importing, viewing, and editing of captions right within ComfyUI. Coded specifically for Ideo4, and captioned in Ideo4 structured JSON. 
 My sibling nodes convert Ideo4 JSON captions on the fly for inference across multiple model architectures. 
 
 To satiate my new custom nodes I also built a colossal **[Visual Aesthetics Library](https://github.com/ApoloniArt/Visual-Aesthetics-Library)** that contains ~60,000 pieces of captioned art inspiration, available directly from me. Both are personal projects created to fill my exact needs.
