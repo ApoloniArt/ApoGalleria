@@ -19,10 +19,6 @@ To satiate my new custom nodes I also built a colossal **[Visual Aesthetics Libr
 ---
 
 ## ApoGalleria-Ideo4
-### **<ins>My core node:</ins>** 
-
-**`ApoGalleria - Visual Aesthetics Library Ideo4`** 
-
 Build up your own libraries of image/JSON pairs, browse them in a split gallery + field-editor UI, lock the fields you like, mix-and-match across multiple saved entries, and
 pass the finished JSON straight into **Kijai's Ideogram 4 Prompt Builder** node's `import_json` input via this node's `export_json` output.
 
