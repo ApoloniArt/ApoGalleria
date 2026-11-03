@@ -13,6 +13,7 @@
 </p>
 Generate images from a stored library of reference image/JSON captioned pairs. Real-time importing, viewing, and editing of captions right within ComfyUI. Coded specifically for Ideo4, and captioned in Ideo4 structured JSON. 
 My sibling nodes convert Ideo4 JSON captions on the fly for inference across multiple model architectures. 
+
 ![ApoGalleria](assets/ApoGalleria.jpg)
 
 ## ApoGalleria-Ideo4
