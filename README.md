@@ -382,7 +382,7 @@ Both have their benefits, and I honestly can't decide which I like best. See whi
 #### PRO TIP: Spawn my main node, select an image, then click on Live JSON Preview to open it. Doing this will keep the node to it's minimal size and not require manual resizing time and again. If you resize my node before opening Live JSON Preview, opening it will expand the node further, and you'll keep resizing it back down. Just an annoying little display issue that doesn't really bother me 🤷‍♀️
 
 ## 🫱🏻‍🫲🏻 Attribution & Licenses
-**ApoGalleria** is MIT licensed, see [MIT license](https://github.com/ApoloniArt/ApoGalleria/blob/main/LICENSE) If you use it in a project, a mention of "ApoGalleria by ApoloniArt" is very much appreciated 🤗 
+**ApoGalleria** is MIT licensed, see [License](https://github.com/ApoloniArt/ApoGalleria/blob/main/LICENSE). If you use it in a project, a mention of "ApoGalleria by ApoloniArt" is very much appreciated 🤗 
 
 See [NOTICE](NOTICE) for the full attribution request.
 
