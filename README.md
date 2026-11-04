@@ -360,13 +360,13 @@ its `export_json` output directly to Ideo4, or whichever sibling node matches yo
 model — or both at once, if you generate across multiple architectures
 from the same library.
 
-# Visual Aesthetics Library
+---
+
+## 🖼️ Visual Aesthetics Library
 
 Looking for a ready-made reference library to drop into ApoGalleria-Ideo4?
 See my **[Visual Aesthetics Library](https://github.com/ApoloniArt/Visual-Aesthetics-Library)** for a colossal
 ~60,000 image/caption reference library.
-
-## Available directly from me via my Discord 👉 [ApoloniArt](https://discord.gg/XDExAUzuZp) 👈
 
 ---
 
