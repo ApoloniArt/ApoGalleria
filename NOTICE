@@ -23,3 +23,12 @@ practice:
 Thank you for respecting the work that went into this project.
 
 GitHub: https://github.com/ApoloniArt
+
+Third-party material bundled with ApoDesign
+-------------------------------------------
+Bitcount Ink (web/fonts/BitcountInk-500.woff2, embedded in
+web/apodesign_font.js). Used for the node banner.
+  Copyright 2024 The Bitcount Project Authors
+  (https://github.com/petrvanblokland/TYPETR-Bitcount)
+  Licensed under the SIL Open Font License, Version 1.1
+  (web/fonts/OFL.txt, https://openfontlicense.org).
