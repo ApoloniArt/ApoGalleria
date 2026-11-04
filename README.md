@@ -386,7 +386,7 @@ Both have their benefits, and I honestly can't decide which I like best. See whi
 
 See [NOTICE](NOTICE) for the full attribution request.
 
-[Bitcount Ink SIL Open Font License 1.1](https://github.com/ApoloniArt/ApoGalleria/blob/main/docs/OFL.txt).
+Bundled fonts: [Bitcount Ink SIL Open Font License 1.1](https://github.com/ApoloniArt/ApoGalleria/blob/main/docs/OFL.txt).
 
 ---
 
