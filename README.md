@@ -394,6 +394,13 @@ See [CHANGELOG.md](CHANGELOG.md).
 
 ---
 
-*Made with love by [Apolonia](https://github.com/ApoloniArt) because I wanted inspiration on tap.* With **ApoGalleria** and **[Visual Aesthetics Library](https://github.com/ApoloniArt/Visual-Aesthetics-Library)**, I never have to worry again.
-Neither will you 💜
-Questions, feedback, or requests? Hit me up on Discord, I'm very friendly 😘
+<div align="center">
+
+**Developed by [ApoloniArt](https://github.com/ApoloniArt)**
+
+[![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/XDExAUzuZp)
+[![Ko-fi](https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/apoloniart)
+
+</div>
+
+
