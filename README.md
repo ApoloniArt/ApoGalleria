@@ -3,7 +3,7 @@
 <p align="center">
   <a href="https://github.com/comfyanonymous/ComfyUI"><img alt="ComfyUI extension" src="https://img.shields.io/badge/ComfyUI-Extension-5ea500?style=flat"></a>
   <a href="https://github.com/ApoloniArt/ApoGalleria/releases"><img alt="Version" src="https://img.shields.io/badge/dynamic/toml?url=https%3A%2F%2Fraw.githubusercontent.com%2Fapoloniart%2FApoGalleria%2Fmain%2Fpyproject.toml&query=%24.project.version&label=Version&color=ed7d31&style=flat"></a>
-  <a href="https://github.com/ApoloniArt/ApoGalleria/blob/main/LICENSE"><img alt="License" src="   https://img.shields.io/github/license/ApoloniArt/ApoGalleria?label=License&color=e0414a&style=flat&cacheSeconds=3600"></a>
+  <a href="https://github.com/ApoloniArt/ApoGalleria/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/github/license/ApoloniArt/ApoGalleria?label=License&color=e0414a&style=flat&cacheSeconds=3600"></a>
   <a href="https://github.com/ApoloniArt/ApoGalleria/blob/main/requirements.txt"><img alt="Dependencies" src="https://img.shields.io/badge/Dependencies-1-0075c2?style=flat"></a>
   <a href="https://github.com/ApoloniArt/ApoGalleria/commits"><img alt="Last update" src="https://img.shields.io/github/last-commit/apoloniart/ApoGalleria?label=Last%20Update&color=ed7d31&style=flat"></a>
   <a href="https://github.com/ApoloniArt/ApoGalleria/commits"><img alt="Activity" src="https://img.shields.io/github/commit-activity/m/apoloniart/ApoGalleria?label=Activity&color=d4b300&style=flat"></a>
