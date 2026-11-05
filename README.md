@@ -10,6 +10,7 @@
   <a href="https://github.com/ApoloniArt/ApoGalleria/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/apoloniart/ApoGalleria?logo=github&color=555&style=flat"></a>
   <a href="https://discord.gg/XDExAUzuZp"><img alt="Discord" src="https://img.shields.io/badge/Discord-Join-5865F2?logo=discord&logoColor=white&style=flat"></a>
   <a href="https://github.com/ApoloniArt"><img alt="Follow on GitHub" src="https://img.shields.io/github/followers/ApoloniArt?label=Follow&logo=github&color=555&style=flat"></a>
+  <a href="https://ko-fi.com/apoloniart"><img alt="Ko-fi" src="https://img.shields.io/badge/Ko--fi-Support-F16061?logo=ko-fi&logoColor=white&style=flat"></a>
 </p>
 Generate images from a stored library of reference image/JSON captioned pairs. Real-time importing, viewing, and editing of captions right within ComfyUI. Coded specifically for Ideo4, and captioned in Ideo4 structured JSON. 
 My sibling nodes convert Ideo4 JSON captions on the fly for inference across multiple model architectures. 
