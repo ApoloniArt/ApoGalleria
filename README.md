@@ -391,7 +391,7 @@ Bundled fonts: [Bitcount Ink SIL Open Font License 1.1](https://github.com/Apolo
 
 ---
 
-## 👩🏻‍💻 Development details and version updates can be found in [CHANGELOG.md](CHANGELOG.md).
+👩🏻‍💻 Development details and version updates can be found in [CHANGELOG.md](CHANGELOG.md).
 
 ---
 
